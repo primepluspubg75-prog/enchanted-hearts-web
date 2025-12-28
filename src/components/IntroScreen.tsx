@@ -40,14 +40,14 @@ const IntroScreen: React.FC<IntroScreenProps> = ({ onEnter }) => {
         <h1 className="intro-title">
           Something Special
           <br />
-          <span className="intro-subtitle">Awaits You</span>
+          <span className="intro-subtitle">مستني القمر بتاعي</span>
         </h1>
         
         <button 
           onClick={onEnter}
           className="enter-button"
         >
-          <span className="button-text">Click to Begin</span>
+          <span className="button-text">دوسي هنا يا جميله</span>
           <div className="button-glow-pulse"></div>
         </button>
       </div>
